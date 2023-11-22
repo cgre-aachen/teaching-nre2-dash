@@ -10,7 +10,7 @@ import matplotlib.image as mpimg
 import dash
 from dash import html, dcc, Input, Output, State
 import base64
-import io
+# import io
 from PIL import Image
 import plotly.express as px
 
