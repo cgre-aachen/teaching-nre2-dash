@@ -79,6 +79,7 @@ def gamma_val(bw_img, x_0, y_0, extent):
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     # Row containing both the upload component and the image display
